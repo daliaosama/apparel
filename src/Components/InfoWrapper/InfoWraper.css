@@ -1,0 +1,113 @@
+#infoWraper{
+    width: 60%;
+    height: 100%;
+    background-image: url('../../assets/bg-pattern-desktop.svg');  
+    background-size: contain;
+    padding-left:10rem;
+    padding-top: 5rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    row-gap: 9vw;
+}
+#logo{
+    width: 10rem; 
+}
+#lab{
+    color:hsl(0, 36%, 70%);
+    font-size: 3rem;
+}
+.coming{
+    font-size: 4rem;
+    font-weight: bold;
+    color: hsl(0, 6%, 24%);
+}
+p{
+    color:hsl(0, 36%, 70%);
+    width: 27rem;
+    font-size: 16px;
+    font-weight: bold;
+}
+#button>input{
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    width: 26rem;
+    height: 2.5rem;
+    border:1px solid hsl(0, 36%, 70%);
+}
+#info{
+    display: flex;
+    flex-direction: column; 
+    row-gap: 20px; 
+}
+#Info{
+    display: flex;
+    flex-direction: column;   
+}
+button{
+     background-image: linear-gradient(135deg,  hsl(0, 80%, 86%), hsl(0, 74%, 74%)) ;
+     height: 2.75rem;
+     width: 5rem;
+     border-style: none;
+     border-radius:25px ;
+     -webkit-border-radius:25px ;
+     -moz-border-radius:25px ;
+     -ms-border-radius:25px ;
+     -o-border-radius:25px ;
+     margin-left: -4.1rem;
+     cursor: pointer;
+}
+button>img{
+    width: 1rem;
+}
+#button{
+    display: flex;   
+}
+::placeholder{
+    color:hsl(0, 36%, 70%)
+}
+#Logo{
+    display: flex;
+}
+@media only screen and (max-width:600px) and (min-width:375px){
+    #infoWraper{
+        width: 90%;
+        padding-top:2rem;
+        position: relative;
+        padding-left: 2rem;
+        height: 60%;
+        background-image: none;
+    }
+    #info{
+        row-gap:5px;
+        width: 90%;
+        align-items: center;
+        top:21rem;
+        position: absolute;
+    }
+    #Info{
+        width: 100%;
+       align-items: center;
+    }
+    #button{
+        position: absolute;
+        top:16rem;
+    }
+    p{
+        width:22rem;
+        text-align: center;
+    }
+    .coming{
+        font-size: 3rem;
+    }
+    button{
+        width: 4rem;
+        margin-left: -3.9rem;
+    }
+    #button>input{
+        width:20rem
+    }
+}

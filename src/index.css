@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'Josefin Sans';
+    src:url('assets/Josefin_Sans/static/JosefinSans-Light.ttf');
+    font-weight: normal;  
+}
+@font-face {
+    font-family: 'Josefin Sans';
+    src: url('assets/Josefin_Sans/static/JosefinSans-Regular.ttf');
+    font-weight:bold;
+}
+html{
+    width: 100%;
+    height: 100%; 
+}
+body{
+    width: 100%;
+    height: 100%; 
+    margin: 0;
+    font-family: 'Josefin Sans';
+    overflow: hidden;
+}
+#root{
+    width: 100%;
+    height: 100%;
+    display: flex; 
+}
+
+
