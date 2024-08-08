@@ -24,5 +24,11 @@ body{
     height: 100%;
     display: flex; 
 }
+@media only screen and (max-width:600px) and (min-width:344px){
+    body{
+        overflow: scroll;
+    }
+ 
+}
 
 

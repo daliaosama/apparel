@@ -1,0 +1,14 @@
+#Logo {
+    display: flex;
+    height: 3rem;
+  }
+  #logo {
+    height: 2rem;
+  }
+  @media only screen and (max-width:600px) and (min-width:344px){
+    #Logo{
+      padding-left: 2rem;
+      box-sizing: border-box;
+    }
+  }
+ 
